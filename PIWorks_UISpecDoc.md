@@ -77,15 +77,27 @@
 * This part of the page is located under the Upper Bar and right half of the page.
 
 |New User||
-|:------ |:------ |
+|:------ |:------: |
 |**Username:**| <input type="text" id="lname" name="lname"><br><br>|
 |**Display Name:**| <input type="text" id="lname" name="lname"><br><br>|
 |**Phone:**|  <input type="text" id="lname" name="lname"><br><br>|
 |**Email:**| <input type="email" id="lname" name="lname"><br><br>| 
-|**User Roles:**| <select default="Select User roles..."> <option value="Guest">Guest </option> <option value="Admin">Admin</option> <option value="SuperAdmin">SuperAdmin </option> </select>|
+|**User Roles:**| <select> <option value="Guest">Guest </option> <option value="Admin">Admin</option> <option value="SuperAdmin">SuperAdmin </option> </select>|
 |**Enabled**| <input style = "position:relative; top:2px;" type="checkbox">
 
- 
+> Username Input Line
+* This field must have text input field next to **Username:** title.
+> Display Name Input Line
+* This field must have text input field next to **Display Name:** title.
+> Phone Input Line
+* This field must have text input field next to **Phone:** title.
+> Email Input Line
+* This field must have email input field next to **Email:** title.
+> User Roles Selection Dropdown List
+* This element must be a dropdown list that including roles for user.
+* Role list order is Guest> Admin> Superadmin. 
+> Enabled User 
+* This element must be a checkbox.
 
 
 # UI İmage
