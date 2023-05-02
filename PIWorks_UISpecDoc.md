@@ -85,6 +85,7 @@
 |**User Roles:**| <select> <option value="Guest">Guest </option> <option value="Admin">Admin</option> <option value="SuperAdmin">SuperAdmin </option> </select>|
 |**Enabled**| <input style = "position:relative; top:2px;" type="checkbox">
 
+### User Registration Specification
 > Username Input Line
 * This field must have text input field next to **Username:** title.
 > Display Name Input Line
